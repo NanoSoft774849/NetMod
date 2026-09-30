@@ -1,5 +1,24 @@
 # NetMod — In-Switch IQ Constellation Mapping for 5G ORAN Fronthaul (single-payload)
 
+> 📄 **If you use this code in research, please cite:**
+>
+> ```bibtex
+> @article{naji2024netmod,
+>   title={NetMod: Toward accelerating cloud RAN distributed unit modulation within programmable switches},
+>   author={Naji, Abdulbary and Wang, Xingfu and Hawbani, Ammar and Ghannami, Aiman and Zhao, Liang and Xu, XiaoHua and Zhao, Wei},
+>   journal={IEEE Transactions on Computers},
+>   volume={74},
+>   number={2},
+>   pages={665--677},
+>   year={2024},
+>   publisher={IEEE}
+> }
+> ```
+>
+> Naji *et al.*, "NetMod: Toward Accelerating Cloud RAN Distributed Unit
+> Modulation within Programmable Switches", *IEEE Transactions on
+> Computers*, vol. 74, no. 2, pp. 665–677, 2024.
+
 ## 1. What is NetMod?
 
 `NetMod` is the **original, single-payload** P4_14 / TNA data-plane
@@ -27,6 +46,12 @@ emulating arbitrary functions in a programmable parser–match pipeline.
 
 The companion project **NetCRC** does the same trick for 5G NR CRC
 computation — see `NetCRC/README.md` for that variant.
+
+This repository accompanies the paper **"NetMod: Toward Accelerating
+Cloud RAN Distributed Unit Modulation within Programmable Switches"** by
+Naji *et al.*, IEEE Transactions on Computers, 2024 (see citation block
+at the top). The paper describes the architecture, the SMAP-based
+constellation mapping, and the cloud-RAN evaluation.
 
 ---
 
