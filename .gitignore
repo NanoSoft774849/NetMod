@@ -1,0 +1,41 @@
+# Build artifacts
+build/
+*.o
+*.so
+*.a
+*.bin
+*.out
+*.elf
+
+# Tofino SDE outputs
+tofino/
+pipe/
+*.bfa
+*.conf
+*.json
+*.json.gz
+
+# Logs and runtime data
+*.log
+*.pcap
+*.pcapng
+
+# Python
+__pycache__/
+*.py[cod]
+*.pyo
+*.egg-info/
+.pytest_cache/
+
+# Editor / IDE
+.vscode/
+.idea/
+*.swp
+*.swo
+*~
+.DS_Store
+
+# Local user files
+*.bak
+*.orig
+*.local

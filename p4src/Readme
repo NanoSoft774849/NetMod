@@ -1,0 +1,3 @@
+error: Table placement cannot make any more progress.  Though some tables have not yet been placed,
+ dependency analysis has found that no more tables are placeable.  This may be due to shared attachments on partly placed tables;
+ may be able to avoid the problem with @stage on those tables
